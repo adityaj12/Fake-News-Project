@@ -24,6 +24,7 @@ Therefore, our next approach was using a **Keyword Featurizer**.
 This method scales the values so that they don't become extreme. This process is called _normalizing_. The keyword featurizer is very similar to the domain featurizer, except it also keeps count of the number of keywords detected from each website's html code.
 
 ![Image](GetNormalizedCount.png)
+
 ![Image](KeywordFeaturizer.png)
 
 We also tried to use Python's BeautifulSoup library to scrape websites for their meta descriptions. These meta descriptions provide keywords that help us determine whether or not these sources are fake.
