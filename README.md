@@ -23,19 +23,19 @@ The issue with a Domain Featurizer is that featurizing values may become too lar
 Therefore, our next approach was using a **Keyword Featurizer**.
 This method scales the values so that they don't become extreme. This process is called _normalizing_. The keyword featurizer is very similar to the domain featurizer, except it also keeps count of the number of keywords detected from each website's html code.
 
-![Image](https://github.com/adityaj12/Fake-News-Project/blob/main/GetNormalizedCount.png)
-![Image](https://github.com/adityaj12/Fake-News-Project/blob/main/KeywordFeaturizer.png)
+![Image](GetNormalizedCount.png)
+![Image](KeywordFeaturizer.png)
 
 We also tried to use Python's BeautifulSoup library to scrape websites for their meta descriptions. These meta descriptions provide keywords that help us determine whether or not these sources are fake.
 
-![Image](https://github.com/adityaj12/Fake-News-Project/blob/main/WebScraping.png)
+![Image](WebScraping.png)
 
 Our main issue with this method was that every website doesn't necessarily have a meta description embedded in their html.
 
 So, we moved onto our next approach, utilizing **Word Vectors**.
 Word vectors are used to determine the similarity between different words. This is especially useful since some keywords in fake news sources may have several synonyms. Using some linear algebra, we can produce a value for the cosine similarity of two word vectors. This value is between -1 and 1, and the more similar the words are, the closer the value will to be to 1, and vice versa.
 
-![Image](https://github.com/adityaj12/Fake-News-Project/blob/main/WordVectors.png)
+![Image](WordVectors.png)
 
 ### Results of Our Approaches
 
