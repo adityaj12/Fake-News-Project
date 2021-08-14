@@ -16,7 +16,7 @@ Examples include:
 Our first approach was using a **Domain Featurizer**.
 A domain featurizer maps feature descriptions to numerical features using a website's url.
 
-![Image](https://github.com/adityaj12/Fake-News-Project/blob/main/DomainFeaturizer.png)
+![Image](images/filename%20DomainFeaturizer.png)
 
 The issue with a Domain Featurizer is that featurizing values may become too large or small. 
 
