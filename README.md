@@ -2,7 +2,7 @@
 
 With the world becoming more and more reliant on technology, fake news has become a prominent and recurring issue in our society.
 
-But what exactly is Fake News? Fake news is any form of media that presents false information whether it was intended or not.
+But what exactly is "fake news"? Fake news is any form of media that presents false information whether it was intended or not.
 
 Examples include:
 - Propoganda
